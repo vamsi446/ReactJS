@@ -1,6 +1,13 @@
 import UserGreeting from "./UserGreeting"
 import List from "./List";
 import Button from "./Button";
+import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+import MyHandler from "./MyHandler";
+import ColorPicker from "./ColorPicker";
+import UpdateObject from "./UpdateObj";
+import UpdateState from "./UpdateState";
+
 function App() {
 
   const fruits = [
@@ -15,6 +22,12 @@ function App() {
     <UserGreeting isLoggedIn = {true} username ="Vamsi"/>
     <List items ={fruits} category="Fruits"></List>
     <Button/>
+    <MyComponent/>
+    <Counter/>
+    <MyHandler/>
+    <ColorPicker/>
+    <UpdateObject/>
+    <UpdateState/>
     </>
   );
 }
